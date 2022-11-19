@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    font-family: 'GT America Standard', sans-serif;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 90px;
+    font-size: 1.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 140px;
+}
+
+.leftHeader, .rightHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftHeader {
+    width: 250px;
+}
+
+.leftHeader > div:nth-child(1) {
+    font-weight: bold; 
+}
+
+.rightHeader {
+    width: 360px;
+}
+
+.rightHeader > div > button {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 8px 17px;
+}
+
+.rightHeader > div:nth-child(2) > button {
+    background-color: #4C5FD5;
+    border: none;
+    height: 45px;
+    padding: 8px 25px;
+}
