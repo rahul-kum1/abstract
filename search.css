@@ -1,0 +1,47 @@
+
+.searchPart {
+    background-color: #dadbf1;
+    height: 397px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchPart > div:nth-child(1) {
+    font-size: 4.4rem;
+    margin-bottom: 40px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.searchEnterIconDiv {
+    position: absolute;
+    right: 17px;
+}
+
+.searchEnterIcon {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+.search > input {
+    padding: 20px 15px;
+    font-size: 1.3rem;
+    width: 650px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.search > input:hover {
+    border: 1px solid blue;
+}
+
+.search > box-icon {
+    vertical-align: middle;
+}
