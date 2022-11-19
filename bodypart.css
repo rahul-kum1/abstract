@@ -1,25 +1,30 @@
 .middleBodyPart {
     margin: 150px 200px;
-    border: 1px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr;   
 }
 
-.middleBodyPartImage {
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
+.middleBodyPartContainer {
+    display: grid;
+    grid-template-columns: 100px 400px;
+    font-size: 1.3rem;
 }
 
-.middleBodyPartFirst {
-    display: flex;
+.middleBodyPartImage {
+    width: 100%;
+    height: auto;
+}
+
+.imageContainer {
     margin-right: 20px;
-    font-size: 1.3rem;
-    line-height: 1.8rem;
 }
 
 .imageTittle {
     margin-top: 0px;
     font-size: 1.3rem;
     font-weight: bold;
+}
+
+.imageLearnMore {
+    text-decoration: none;
 }

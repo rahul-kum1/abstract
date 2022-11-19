@@ -1,0 +1,43 @@
+.helpButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4C5FD5;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+    padding: 12px 25px;
+}
+
+.contact {
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactTitle {
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.contactInfoLinks {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+
+.contactInfoLinks:hover {
+    text-decoration: underline;
+}
